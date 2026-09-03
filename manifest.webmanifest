@@ -1,5 +1,5 @@
 {
-  "name": "다덤벼",
+  "name": "다덤벼 - 실시간 파티게임",
   "short_name": "다덤벼",
   "description": "코드 하나면 끝. 가입 없이 여덟 명이 같이 하는 파티 게임",
   "start_url": "./",
@@ -10,7 +10,17 @@
   "theme_color": "#F4EAD5",
   "lang": "ko",
   "icons": [
-    { "src": "./icons/dumi-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "./icons/dumi-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+    {
+      "src": "./icons/dumi-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/dumi-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }
