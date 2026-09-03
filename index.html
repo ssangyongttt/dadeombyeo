@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<!-- viewport-fit=cover: 아이폰 노치/다이내믹아일랜드 아래까지 배경을 깔고 여백은 CSS env() 로 잡는다.
+     user-scalable=no + maximum-scale=1: 연타 게임에서 더블탭 확대가 터지면 판정 자체가 망가진다. -->
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#F4EAD5">
+<!-- iOS 홈화면 추가(웹으로 먼저 돌릴 때) -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="format-detection" content="telephone=no">
+<!-- 홈 화면에 추가 — 웹 링크로 참가하는 방식에서는 이게 유일한 재진입 경로다.
+     아이콘이 없으면 3일 뒤 다시 오려면 카톡 대화를 거슬러 올라가 링크를 찾아야 한다. -->
+<!-- 폰트 CSS 는 빌드가 건드리지 않게 여기서 직접 건다.
+     base.css 에서 @import 하면 Vite 가 woff2 를 한 벌 더 번들해서 배포 용량이 두 배가 된다. -->
+<link rel="stylesheet" href="./fonts/fonts.css">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icons/dumi-180.png">
+<link rel="icon" type="image/png" href="./icons/dumi-192.png">
+<meta name="apple-mobile-web-app-title" content="다덤벼">
+<title>파티게임</title>
+  <script type="module" crossorigin src="./assets/index-eZESHN5C.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-6n277Kw7.css">
+</head>
+<body>
+<div id="app"></div>
+</body>
+</html>
